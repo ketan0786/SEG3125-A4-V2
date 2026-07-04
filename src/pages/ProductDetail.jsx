@@ -171,7 +171,7 @@ export default function ProductDetail() {
 
         {/* Info */}
         <div>
-          <span className="kicker">{product.brand.toUpperCase()}{product.brand !== "Jordan" ? "" : " · JORDAN"}</span>
+          <span className="kicker">{product.brand.toUpperCase()}</span>
           <h1 style={{ fontSize: 28, fontWeight: 700, margin: "10px 0 4px", letterSpacing: "-0.01em" }}>{product.name}</h1>
           <p className="muted" style={{ fontSize: 14, marginBottom: 14 }}>{product.colorway}</p>
 
